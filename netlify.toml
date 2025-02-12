@@ -7,7 +7,7 @@ headers = []
 publish = "C:\\Users\\ron\\Desktop\\example\\luxurfit-clothing\\build"
 publishOrigin = "ui"
 commandOrigin = "ui"
-command = "CI=false npm run build"
+command = "CI=false react-app-rewired build"
 functions = "netlify/functions"
 
 [build.environment]
