@@ -12,6 +12,7 @@ functions = "netlify/functions"
 
 [build.environment]
 STRIPE_SECRET_KEY = "sk_test_51QrLDHJjiUm22yvJl5pIjPmwKCMQlpZEkSXgNgo2BoHZW5k3IPvYtK0jZc08PwqyyHNKPUwkek7jryRpczXlOnrU00FpumG0dJ"
+NODE_VERSION = "22.11.0"
 [build.processing]
 
 [build.processing.css]
