@@ -4,7 +4,7 @@ plugins = []
 headers = []
 
 [build]
-publish = "C:\\Users\\ron\\Desktop\\example\\luxurfit-clothing\\build"
+publish = "build"
 publishOrigin = "ui"
 commandOrigin = "ui"
 command = "CI=false react-app-rewired build"
