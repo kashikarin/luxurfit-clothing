@@ -5,7 +5,7 @@ import { selectCartItems } from '../../store/cart/cart.selector';
 
 const CheckoutItem = ({item}) => {
     const dispatch = useDispatch();
-    const {imageUrl, name, quantity, price, id} = item;
+    const {imageUrl, name, quantity, price} = item;
     const cartItems = useSelector(selectCartItems);
     
     const addItemHandler = () => dispatch(addItemToCart(cartItems, item));
